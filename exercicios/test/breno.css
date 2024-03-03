@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: fixed;
+  background-image: linear-gradient(
+    to right bottom,
+    #ab71a4,
+    #4d4e9e,
+    #8b99e2,
+    #ffa88c,
+    #fdac6d
+  );
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 19px;
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.733) 5px 5px 15px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Pricedown Bl', sans-serif;;
+  font-weight: lighter;
+  font-size: 1.9em;
+  text-align: center;
+  text-shadow: #4d4e9e3b 2px 2px 5px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  color: #494a91;
+  text-shadow: #ffa98cb7 2px 2px 5px;
+}
+
+p {
+  text-align: justify;
+  font-family: sans-serif;
+}

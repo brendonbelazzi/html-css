@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(to right, gray, rgb(228, 227, 227));
+        margin: 0px;
+      }
+
+      header {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      header > h1 {
+        text-shadow: 5px 3px 1px rgba(0, 0, 0, 0.062);
+      }
+
+      main {
+        background-color: #ffffff;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 10px;
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.267);
+      }
+
+      article > h2 {
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.205);
+      }
+
+      aside {
+        color: #fff;
+        background-color: rgb(66, 66, 66);
+      }
+
+      footer {
+        background-color: black;
+        color: #fff;
+        padding: 9px;
+        text-align: center;
+        margin: 0px;
+      }
+
+      nav {
+        background-color: rgb(144, 166, 187);
+        padding: 3px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+      }
+
+      nav > a {
+        text-decoration: none;
+        color: darkred;
+        margin-right: 10px;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <article>
+          <h2>Esportes</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            sit dignissimos voluptas eos voluptates. Incidunt libero itaque
+            iste! Modi deleniti at fugiat ratione ab corporis voluptate eveniet
+            consequatur tempora vero?
+          </p>
+        </article>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Notícias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi
+            magni dolores aperiam eveniet consequatur assumenda pariatur saepe
+            atque reprehenderit ipsum vel omnis, rerum, possimus quos impedit
+            autem quas magnam?
+          </p>
+          <aside>
+            <p>Escrito por Pedro Alvares Cabral</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer>Desenvolvido pelo Brenin</footer>
+  </body>
+</html>
