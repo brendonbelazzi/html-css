@@ -42,7 +42,7 @@ header p a:hover {
   text-decoration: underline;
 }
 
-#estrofe1 {
+.normal {
   padding: 10vh 0vh 10vh 30px;
   line-height: 2em;
   font-size: 3.5vw;
@@ -50,15 +50,16 @@ header p a:hover {
   margin: auto;
 }
 
-#estrofe2 {
+.foto1 {
   background-image: url(pacote-d012/imagens/background001.jpg);
   background-size: cover;
-  background-position: right center;
+  background-position: center center;
   background-attachment: fixed;
   padding: 10vh 0 10vh 30px;
 }
 
-#estrofe2 > p {
+.foto1 p,
+.foto2 p {
   padding: 5px;
   line-height: 2em;
   font-size: 3.5vw;
@@ -68,42 +69,16 @@ header p a:hover {
   width: fit-content;
 }
 
-#estrofe23 {
-  padding: 10vh 0vh 10vh 30px;
-  line-height: 2em;
-  font-size: 3.5vw;
-  font-family: var(--fonte3);
-  margin: auto;
-}
-
-#estrofe23 p {
+.normal p {
   padding-bottom: 2em;
 }
 
-#estrofe4 {
+.foto2 {
   background-image: url(pacote-d012/imagens/background002.jpg);
   background-size: cover;
   background-position: right center;
   background-attachment: fixed;
   padding: 10vh 0 10vh 30px;
-}
-
-#estrofe4 p {
-  padding: 5px;
-  line-height: 2em;
-  font-size: 3.5vw;
-  font-family: var(--fonte3);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.514);
-  width: fit-content;
-}
-
-#estrofe56 {
-  padding: 10vh 0vh 10vh 30px;
-  line-height: 2em;
-  font-size: 3.5vw;
-  font-family: var(--fonte3);
-  margin: auto;
 }
 
 footer {
