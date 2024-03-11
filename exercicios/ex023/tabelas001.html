@@ -10,28 +10,27 @@
       }
 
       table {
+        height: 400px;
         width: 400px;
         border-collapse: collapse;
-      }
-
-      tr.linha {
-        background-color: gray;
       }
 
       td {
         border: 1px solid black;
         padding: 8px;
+        text-align: left;
+        vertical-align: middle;
       }
 
-      td.dado {
-        background-color: yellow;
+      .numero {
+        text-align: right;
       }
     </style>
   </head>
   <body>
     <h1>Minha primeira tabela</h1>
     <table>
-      <tr class="linha">
+      <tr>
         <td>A1</td>
         <td>B1</td>
         <td>C1</td>
@@ -44,16 +43,12 @@
       <tr>
         <td>A3</td>
         <td>B3</td>
-        <td>C3</td>
+        <td class="numero">3</td>
       </tr>
       <tr>
         <td>A4</td>
         <td>B4</td>
-        <td class="dado">C4</td>
-      </tr>
-      <tr>
-        <td>A5</td>
-        <td>B5</td>
+        <td class="numero">4</td>
       </tr>
     </table>
   </body>
