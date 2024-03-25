@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de iframes</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      iframe {
+        width: 95vh;
+        border: 2px solid black;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Faça uma escolha</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci enim
+      illo commodi cum neque provident quisquam facere, illum quas dicta
+      nesciunt quia. Quaerat magni, voluptatum ad eligendi sapiente quas
+      reiciendis?
+    </p>
+    <ul>
+      <li><a href="pag001.html" target="frame">Primeira página</a></li>
+      <li><a href="pag002.html" target="frame">Segunda página</a></li>
+      <li><a href="pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+      nesciunt, adipisci, corrupti quia mollitia voluptates quos consectetur
+      consequuntur eos cumque libero numquam. Dolore assumenda incidunt
+      dignissimos magni quia perspiciatis. Atque? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Omnis nihil repellendus recusandae quasi.
+      Magnam nihil ab ipsam praesentium, minus aspernatur omnis facilis
+      dignissimos blanditiis excepturi expedita magni natus, illo doloribus?
+    </p>
+
+    <iframe
+      srcdoc="<h1>Escolha uma das opções acima</h1>"
+      frameborder="0"
+      id="tela"
+      name="frame"
+      ><p>Infelizmente seu navegador não é compatível.</p></iframe
+    >
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab iure
+      repudiandae minima, quaerat quas esse voluptates possimus quidem
+      reprehenderit obcaecati. Aliquid labore hic provident debitis expedita cum
+      tempore, eius culpa. Lorem ipsum dolor sit amet consectetur, adipisicing
+      elit. Hic cum ullam labore debitis, modi odio sapiente fugit nemo aliquid
+      iste neque deleniti illo corrupti, optio explicabo eveniet. Provident,
+      facilis fugit?
+    </p>
+  </body>
+</html>
