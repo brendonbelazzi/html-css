@@ -17,6 +17,7 @@
     content: "Essa impressão foi feita a partir do site de Brenin";
     font-size: 0.5em;
     text-decoration: underline;
+    text-align: center;
   }
 
   img {
