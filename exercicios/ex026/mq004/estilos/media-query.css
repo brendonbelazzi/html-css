@@ -11,6 +11,11 @@
     color: black;
     text-shadow: none;
   }
+
+  main::after {
+    content: "Essa impressão foi feita a partir do site de Brenin";
+  }
+
   img {
     display: block;
     margin: auto;
