@@ -12,7 +12,7 @@
     text-shadow: none;
   }
 
-  body::after {
+  main::after {
     content: "Essa impressão foi feita a partir do site de Brenin";
   }
 
