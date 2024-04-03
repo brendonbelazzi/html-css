@@ -16,7 +16,7 @@
   }
 
   img#phone {
-    display: block;
+    display: none;
   }
 
   img#tablet {
@@ -24,7 +24,7 @@
   }
 
   img#print {
-    display: none;
+    display: block;
   }
 
   img#pc {
